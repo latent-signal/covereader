@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Cove</title>
+        <item>
+            <title>0.0.1</title>
+            <pubDate>Wed, 15 Jul 2026 07:57:37 -0400</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/latent-signal/covereader/releases/download/v0.0.1/Cove.dmg" length="6336994" type="application/octet-stream" sparkle:edSignature="RaUt3SjOlOxzwiqaSXvtl4r+GcV9HSKsgoPHjkByKVP+PFzDJ07A5PVKsJil8+r74aG0Z4Pph28FxGXxrSTpCA=="/>
+        </item>
+    </channel>
+</rss>
