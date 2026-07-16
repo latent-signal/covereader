@@ -1,4 +1,8 @@
-# Cove Reader
+# Cove
+
+<p align="center">
+   <img src="cove.png" width=240 height=240 alt="Cove" />
+</p>
 
 This repository is the public home for **Cove**, a work-in-progress native macOS RSS reader.
 
@@ -20,4 +24,4 @@ If your post is exploratory, open-ended, or not yet actionable, please start a G
 
 ## Status
 
-Cove is an active work in progress, including planned on-device AI integrations.
+Cove is an active work in progress.
