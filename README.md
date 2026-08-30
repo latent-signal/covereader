@@ -3,7 +3,7 @@
 Native Mac RSS reader that keeps what you read.
 
 <p align="center">
-   <img src="cove.png" width=240 height=240 alt="Cove" />
+   <img src="cove.png" width=480 alt="Cove" />
 </p>
 
 Feeds truncate. Blogs die. Most readers delete old articles to save space. Cove fetches the full article onto your Mac and keeps it until you delete it. Local-first, Mac-only, free while in beta.
