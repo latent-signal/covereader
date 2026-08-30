@@ -30,4 +30,3 @@ This repository is the public home for releases, bugs, and feedback. Application
 ## Feedback
 
 Search existing issues first. Bugs get the bug report template. Ideas get the feature request template. Open-ended thoughts go in Discussions.
-This repository is the public home for **Cove**, a work-in-progress native macOS RSS reader.
