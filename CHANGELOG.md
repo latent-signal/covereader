@@ -6,9 +6,21 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-09-10
+
 ### Added
 
-- Local MCP server (off by default) lets agents on this Mac read feeds and articles and manage feeds through Settings > Advanced.
+- Cove can open your library to an agent on your Mac. Turn on the MCP Server in Settings under Advanced. An agent that speaks MCP can then list your feeds and folders, read unread and starred articles, open one article, mark articles read, and add, rename, move, or remove a feed. The server is off until you turn it on, it listens only on this Mac, and it needs the token Cove gives you. Choose HTTP or the bundled stdio bridge, and copy the configuration block Cove shows you. Cove ships no agent of its own; the agent is yours.
+
+### Changed
+
+- Cove starts faster. It no longer prepares the audio system or searches for its data model before it needs them, so Now Playing stays free until you listen.
+- Listen begins speaking sooner.
+- About is now the last tab in Settings, after Advanced.
+
+### Fixed
+
+- Links in an article that did nothing when you clicked them now open. Cove resolves a link against the article's own address, and discards a destination it cannot make sense of instead of trying to open it.
 
 ## [0.0.10] - 2026-08-28
 
@@ -113,7 +125,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - Initial usable release of Cove.
 
-[Unreleased]: https://github.com/latent-signal/cove/compare/v0.0.10...HEAD
+[Unreleased]: https://github.com/latent-signal/cove/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/latent-signal/cove/compare/v0.0.10...v0.1.0
 [0.0.10]: https://github.com/latent-signal/cove/compare/v0.0.9...v0.0.10
 [0.0.9]: https://github.com/latent-signal/cove/compare/v0.0.8...v0.0.9
 [0.0.8]: https://github.com/latent-signal/cove/compare/v0.0.7...v0.0.8
