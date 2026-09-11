@@ -6,6 +6,12 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-09-11
+
+### Fixed
+
+- Crash reports now reach Cove's diagnostics service when you turn on optional crash reporting. This helps us find and fix problems.
+
 ## [0.1.0] - 2026-09-10
 
 ### Added
@@ -125,7 +131,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - Initial usable release of Cove.
 
-[Unreleased]: https://github.com/latent-signal/cove/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/latent-signal/cove/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/latent-signal/cove/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/latent-signal/cove/compare/v0.0.10...v0.1.0
 [0.0.10]: https://github.com/latent-signal/cove/compare/v0.0.9...v0.0.10
 [0.0.9]: https://github.com/latent-signal/cove/compare/v0.0.8...v0.0.9
