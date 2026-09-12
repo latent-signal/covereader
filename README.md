@@ -16,10 +16,9 @@ Feeds truncate. Blogs die. Most readers delete old articles to save space. Cove 
 - Clips: saved passages that stay attached to the article
 - Search that never leaves your Mac
 - Read aloud with the voices already on your Mac
+- HTTP and Stdio MCP server so your agents can manage your reading list
 - Import/export subscriptions, folders included
 - Apple-notarized builds, updates inside the app
-
-Current build: v0.0.10.
 
 ## Not this (yet)
 
