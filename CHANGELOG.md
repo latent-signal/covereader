@@ -8,7 +8,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Added
 
-- Search now looks inside your articles. Type in the search field, and Cove finds every article you keep whose text, title, or author matches. Read and archived articles are included. The best matches come first, and an article that matched in its text shows a short snippet with your words in bold. Put a phrase in double quotes to match it exactly. When a feed is selected, search stays inside that feed. Search works offline. Your query never leaves your Mac.
+- Search now looks inside your articles. Type in the search field, and Cove finds every article you keep whose text, title, or author matches. Search filters the row you selected. Under Unread you see only unread matches. Under Starred you see only starred matches. In a feed or folder you see only its own articles. The best matches come first, and an article that matched in its text shows a short snippet with your words in bold. Put a phrase in double quotes to match it exactly. The search field tells you where it looks before you type, for example "Search articles in Unread". Search works offline. Your query never leaves your Mac.
+- The Library has a new All Articles row, above Today. It lists every article from all of your feeds, newest first. A search in All Articles covers your whole archive. Read and archived articles are included there, and it is the only place a search reaches your archived feeds.
 - Settings under Advanced has a new Search Index section. It shows how many articles are indexed and when the index was last rebuilt. It also has a Rebuild Index button. You can keep reading while a rebuild runs.
 
 ## [0.1.1] - 2026-09-11
