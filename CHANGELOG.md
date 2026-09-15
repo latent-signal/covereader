@@ -6,11 +6,31 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-09-15
+
 ### Added
 
-- Search now looks inside your articles. Type in the search field, and Cove finds every article you keep whose text, title, or author matches. Search filters the row you selected. Under Unread you see only unread matches. Under Starred you see only starred matches. In a feed or folder you see only its own articles. The best matches come first, and an article that matched in its text shows a short snippet with your words in bold. Put a phrase in double quotes to match it exactly. The field names its row, for example "Search Unread", and its tooltip states the current search depth. Search works offline. Your query never leaves your Mac.
-- The Library has a new All Articles row, above Today. It lists every article from all of your feeds, newest first. A search in All Articles covers your whole archive. Read and archived articles are included there, and it is the only place a search reaches your archived feeds.
-- Settings under Advanced has a new Search Index section. It shows how many articles are indexed and when the index was last rebuilt. It also has a Rebuild Index button. You can keep reading while a rebuild runs.
+- Search now looks inside retained article text as well as titles, authors, and
+  feed names. Results are ranked by relevance, body matches show snippets, exact
+  phrases are supported, and searches work offline without leaving your Mac.
+- A new All Articles row searches the complete archive, including read articles
+  and articles from archived feeds.
+- Advanced settings now shows the search index status and provides a Rebuild
+  Index action.
+- About Cove now opens in its own dedicated window.
+- Smart feeds now offer Refresh All Feeds and Mark All as Read actions.
+
+### Changed
+
+- Search follows the selected feed, folder, or smart-feed scope, and the search
+  field identifies its current scope and depth.
+- When you mark the selected article read, it remains visible in Unread until
+  you move to another article or change the list.
+
+### Fixed
+
+- Search results and the selected unread article now remain consistent while
+  background updates arrive.
 
 ## [0.1.1] - 2026-09-11
 
@@ -137,7 +157,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - Initial usable release of Cove.
 
-[Unreleased]: https://github.com/latent-signal/cove/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/latent-signal/cove/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/latent-signal/cove/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/latent-signal/cove/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/latent-signal/cove/compare/v0.0.10...v0.1.0
 [0.0.10]: https://github.com/latent-signal/cove/compare/v0.0.9...v0.0.10
