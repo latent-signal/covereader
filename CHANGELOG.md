@@ -6,6 +6,11 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Added
+
+- Agents connected to Cove's MCP server can now search the archive, with the
+  same matching as library search.
+
 ## [0.2.0] - 2026-09-15
 
 ### Added
