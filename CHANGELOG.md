@@ -6,10 +6,50 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-09-30
+
 ### Added
 
 - Agents connected to Cove's MCP server can now search the archive, with the
   same matching as library search.
+
+### Changed
+
+- Search is faster and no longer slows down as your archive grows: titles,
+  authors, and feed names are now looked up in the same index as article text.
+- Titles, authors, and feed names now match by whole word, like article text
+  does, with only the last word you type also matching the start of longer
+  words. `ack` no longer finds `hacker`.
+- Very large result sets are cut at 2,000 matches of any kind, not just text
+  matches.
+- Cove is much faster with a large library. Marking read, starring, refreshing
+  many feeds, and deleting a feed no longer hold up the window, and sidebar
+  counts update without pausing the list.
+
+### Fixed
+
+- Search no longer keeps finding an article's old text after Cove is stopped at
+  the wrong moment.
+- When Cove starts fresh after failing to open your library, the backup it sets
+  aside now includes your saved article text, so it can actually be restored.
+- When Cove can't open your library for a reason you can fix, such as an
+  unreadable format, a full disk, or no write permission, it now says which and
+  what to do, and leaves your library where it is. Before, it could set the
+  library aside and start empty, or quietly fail every mark-as-read, star, and
+  refresh.
+- Starring or marking an article read no longer stalls during a large OPML
+  import or a refresh of many feeds.
+- Mark All as Read, Mark Above, and Mark Below now tell you when they only
+  partly finished, show as running instead of silently refusing a second click,
+  and clear the warning when a retry succeeds.
+- Search now tells a search that is still working from one that found nothing,
+  and a broken search index from no results, instead of showing No Results too
+  early.
+- Refresh no longer spins forever on a feed item that can't be saved, and an
+  article that matched one from another feed is no longer lost if that feed is
+  deleted mid-refresh.
+- Crash reporting, when you turn it on, now also reports when Cove freezes for
+  a second or more, with a trail of what it was doing.
 
 ## [0.2.0] - 2026-09-15
 
@@ -162,7 +202,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - Initial usable release of Cove.
 
-[Unreleased]: https://github.com/latent-signal/cove/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/latent-signal/cove/compare/v0.3.0...HEAD
+[0.3.0]: https://github.com/latent-signal/cove/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/latent-signal/cove/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/latent-signal/cove/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/latent-signal/cove/compare/v0.0.10...v0.1.0
