@@ -3,6 +3,15 @@
     <channel>
         <title>Cove</title>
         <item>
+            <title>0.3.1</title>
+            <pubDate>Sat, 03 Oct 2026 08:58:54 -0400</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/latent-signal/covereader/releases/download/v0.3.1/Cove.dmg" length="17208107" type="application/octet-stream" sparkle:edSignature="B4uNzWZ9WQkTGObO1dNRsfb6man3XhvDy5xah/ZHBJlRwhaaJM4aoN/p5E394ENCI61p/6L4itnkrvvWZRgoDg=="/>
+        </item>
+        <item>
             <title>0.3.0</title>
             <pubDate>Wed, 30 Sep 2026 21:32:15 -0400</pubDate>
             <sparkle:version>14</sparkle:version>
