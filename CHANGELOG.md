@@ -6,6 +6,18 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [0.3.1] - 2026-10-03
+
+### Fixed
+
+- Cove no longer uses more and more memory the longer it stays open. Each feed
+  refresh used to leave a little behind, which could add up to gigabytes over a
+  few days and make the window stutter.
+- Opening Cove no longer freezes for a moment while it counts unread articles.
+  Sidebar counts now fill in just after the feed list appears.
+- Loading article images, full articles, and new feeds no longer holds up the
+  window while the download comes in.
+
 ## [0.3.0] - 2026-09-30
 
 ### Added
@@ -202,7 +214,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - Initial usable release of Cove.
 
-[Unreleased]: https://github.com/latent-signal/cove/compare/v0.3.0...HEAD
+[Unreleased]: https://github.com/latent-signal/cove/compare/v0.3.1...HEAD
+[0.3.1]: https://github.com/latent-signal/cove/compare/v0.3.0...v0.3.1
 [0.3.0]: https://github.com/latent-signal/cove/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/latent-signal/cove/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/latent-signal/cove/compare/v0.1.0...v0.1.1
