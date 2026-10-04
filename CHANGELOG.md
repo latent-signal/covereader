@@ -6,6 +6,12 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Fixed
+
+- On a new install, setting older unread articles aside stays off until you
+  turn it on. It used to switch itself on the second time you opened Cove. If
+  it's on and you never chose it, turn it off in Settings > Reading.
+
 ## [0.3.1] - 2026-10-03
 
 ### Fixed
