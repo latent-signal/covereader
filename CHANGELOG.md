@@ -6,11 +6,21 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [0.4.0] - 2026-10-06
+
+### Added
+
+- Post to X… opens X's composer with your clip's quote and a link to the
+  article. You review and post it yourself.
+- Share Clip… sends a clip to any app through the share sheet.
+- Shared clips can add a short "via covereader.com" line. Turn it off in
+  Settings > Reading.
+
 ### Fixed
 
-- On a new install, setting older unread articles aside stays off until you
-  turn it on. It used to switch itself on the second time you opened Cove. If
-  it's on and you never chose it, turn it off in Settings > Reading.
+- The window and sidebar stay smooth while many feeds refresh.
+- Setting older articles aside no longer turns itself on after a new install.
+  If it's on and you never chose it, turn it off in Settings > Reading.
 
 ## [0.3.1] - 2026-10-03
 
@@ -220,7 +230,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - Initial usable release of Cove.
 
-[Unreleased]: https://github.com/latent-signal/cove/compare/v0.3.1...HEAD
+[Unreleased]: https://github.com/latent-signal/cove/compare/v0.4.0...HEAD
+[0.4.0]: https://github.com/latent-signal/cove/compare/v0.3.1...v0.4.0
 [0.3.1]: https://github.com/latent-signal/cove/compare/v0.3.0...v0.3.1
 [0.3.0]: https://github.com/latent-signal/cove/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/latent-signal/cove/compare/v0.1.1...v0.2.0
