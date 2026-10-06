@@ -8,7 +8,7 @@ Native Mac RSS reader that keeps what you read.
 
 Feeds truncate. Blogs die. Most readers delete old articles to save space. Cove fetches the full article onto your Mac and keeps it until you delete it. Local-first, Mac-only, free while in beta.
 
-**Download:** [Cove.dmg](https://github.com/latent-signal/covereader/releases/latest) · **Site:** [covereader.app](https://covereader.app)
+**Download:** [Cove.dmg](https://github.com/latent-signal/covereader/releases/latest) · **Site:** [covereader.com](https://covereader.com)
 
 ## What's in the beta
 
