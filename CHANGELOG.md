@@ -6,6 +6,11 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Fixed
+
+- Clips posted to X show the article's preview card, when it has one, instead
+  of Cove's.
+
 ## [0.4.0] - 2026-10-06
 
 ### Added
