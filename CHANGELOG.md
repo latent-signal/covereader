@@ -6,10 +6,24 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [0.5.0] - 2026-10-08
+
+### Added
+
+- Cove can show each feed's site icon in the sidebar and in an article's
+  byline. Turn on Show Site Icons in Settings > Feeds. It's off by default,
+  and icons come only from each feed's own site.
+- Clear Media Cache now clears site icons too.
+
 ### Fixed
 
 - Clips posted to X show the article's preview card, when it has one, instead
   of Cove's.
+- VoiceOver reads the field for renaming a feed or folder as an editable text field.
+- VoiceOver reads the reader's text size, and Listen's progress as a progress
+  bar, including while narration is preparing.
+- VoiceOver reads the status lines in Settings > Advanced and the text of each
+  clip in the Clips list.
 
 ## [0.4.0] - 2026-10-06
 
@@ -235,7 +249,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - Initial usable release of Cove.
 
-[Unreleased]: https://github.com/latent-signal/cove/compare/v0.4.0...HEAD
+[Unreleased]: https://github.com/latent-signal/cove/compare/v0.5.0...HEAD
+[0.5.0]: https://github.com/latent-signal/cove/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/latent-signal/cove/compare/v0.3.1...v0.4.0
 [0.3.1]: https://github.com/latent-signal/cove/compare/v0.3.0...v0.3.1
 [0.3.0]: https://github.com/latent-signal/cove/compare/v0.2.0...v0.3.0
