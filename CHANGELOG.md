@@ -6,6 +6,32 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [0.6.0] - 2026-10-11
+
+### Added
+
+- Delete one article from its context menu or the Article menu, or press ⌘⌫.
+  Cove asks before removing the article and its Clips and notes, then keeps
+  it out of future refreshes of that subscription.
+- Supported Mermaid blocks now appear as diagrams inside articles. They adapt
+  to light and dark appearance and render offline. Blocks that cannot render
+  safely stay readable as code.
+
+### Changed
+
+- Cove can recognize matching light and dark figures and show the version
+  with better contrast for your appearance, including figures that load
+  as you scroll.
+- Cove updates your library on the first launch of this version. Large
+  libraries may take longer to open once; saved read state, stars, and Clips
+  carry over.
+
+### Fixed
+
+- Old feed items without a publication date no longer jump to the top as
+  though they were published when Cove fetched them. They follow their place
+  in the feed, and the article list and byline show no invented date.
+
 ## [0.5.0] - 2026-10-08
 
 ### Added
@@ -249,7 +275,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - Initial usable release of Cove.
 
-[Unreleased]: https://github.com/latent-signal/cove/compare/v0.5.0...HEAD
+[Unreleased]: https://github.com/latent-signal/cove/compare/v0.6.0...HEAD
+[0.6.0]: https://github.com/latent-signal/cove/compare/v0.5.0...v0.6.0
 [0.5.0]: https://github.com/latent-signal/cove/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/latent-signal/cove/compare/v0.3.1...v0.4.0
 [0.3.1]: https://github.com/latent-signal/cove/compare/v0.3.0...v0.3.1
