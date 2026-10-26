@@ -6,6 +6,25 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [0.7.0] - 2026-10-26
+
+### Added
+
+- Focus mode shows one article and hides everything else. Press ⇧⌘F, choose
+  View › Enter Focus, or double-click the article's title. The article sits
+  in a centered column with how many minutes are left and what comes next.
+  A small toolbar fades in when you need it, with next and previous, read,
+  star, clip, listen, Reader View, and Open in Browser.
+- Leave focus mode with ⇧⌘F or Esc, and you're back where you were. Your list,
+  selection, and column widths come back as you left them, and nothing is
+  marked read or starred just because you looked.
+
+### Fixed
+
+- Holding Space no longer skips through articles. Space pages through the
+  article as before.
+- View › Show Sidebar (⌃⌘S) works again everywhere in the app.
+
 ## [0.6.0] - 2026-10-11
 
 ### Added
@@ -275,7 +294,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - Initial usable release of Cove.
 
-[Unreleased]: https://github.com/latent-signal/cove/compare/v0.6.0...HEAD
+[Unreleased]: https://github.com/latent-signal/cove/compare/v0.7.0...HEAD
+[0.7.0]: https://github.com/latent-signal/cove/compare/v0.6.0...v0.7.0
 [0.6.0]: https://github.com/latent-signal/cove/compare/v0.5.0...v0.6.0
 [0.5.0]: https://github.com/latent-signal/cove/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/latent-signal/cove/compare/v0.3.1...v0.4.0
