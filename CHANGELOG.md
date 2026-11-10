@@ -6,6 +6,32 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [0.8.0] - 2026-11-10
+
+### Added
+
+- Share articles through the Mac's share sheet, from the reader toolbar,
+  focus mode, or an article's context menu.
+- Copy or share a link to the paragraph you're reading. Safari highlights
+  that paragraph when the publisher's page has the same text. These links
+  include article text in the URL.
+- Pick up the open article on your iPhone or iPad with Handoff, using the
+  same Apple Account. It's on by default; turn it off in Settings > Reading.
+
+### Changed
+
+- In Unread and unread-only lists, articles you mark read stay in place as
+  you move between them. Click the current sidebar selection again to clear
+  the read rows, keeping the open article. Unread counts update immediately.
+
+### Fixed
+
+- Space keeps paging after advancing to another article, including in focus
+  mode and when switching between Reader View and feed content.
+- Opening a Clip reliably shows its highlight just below the toolbar.
+  Narration's follow-along scrolls the current paragraph to the right place too.
+- Opening Cove no longer pauses while feed unread counts load.
+
 ## [0.7.0] - 2026-10-26
 
 ### Added
@@ -294,7 +320,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - Initial usable release of Cove.
 
-[Unreleased]: https://github.com/latent-signal/cove/compare/v0.7.0...HEAD
+[Unreleased]: https://github.com/latent-signal/cove/compare/v0.8.0...HEAD
+[0.8.0]: https://github.com/latent-signal/cove/compare/v0.7.0...v0.8.0
 [0.7.0]: https://github.com/latent-signal/cove/compare/v0.6.0...v0.7.0
 [0.6.0]: https://github.com/latent-signal/cove/compare/v0.5.0...v0.6.0
 [0.5.0]: https://github.com/latent-signal/cove/compare/v0.4.0...v0.5.0
